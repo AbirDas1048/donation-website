@@ -19,7 +19,7 @@ a {
 }
 
 #header h1 {
-    padding: 0px 8.5px;
+    /* padding: 0px 8.5px; */
     color: #ffffff;
     font-size: 65px;
     font-weight: 700;
@@ -32,10 +32,11 @@ a {
     color: #ffffff;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     margin-bottom: 30px;
 }
 
-#header a {
+.donate-button {
     padding: 16px 12px;
     border: 1px solid transparent;
     border-radius: 5px;
@@ -47,3 +48,65 @@ a {
 }
 
 /* header section css end */
+
+/* donation-amount section css start */
+
+#donation-amount {
+    padding: 130px 338px;
+    text-align: center;
+}
+
+#donation-amount h3 {
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+}
+
+#donation-amount .donation-amount-p {
+    padding: 0 70px;
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+}
+
+#donation-amount .amount {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+#donation-amount .amount .item {
+    margin: 0 11px;
+    padding: 44px 25px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #fafafa;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #707070;
+}
+
+#donation-amount .amount .item-2 {
+
+    border: 5px solid #FF5959;
+    background-color: #FFEEEE;
+    color: #FF5959;
+}
+
+#donation-amount .other {
+    /* padding: 0 70px; */
+    color: #b3b3b3;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 1px solid #dadada;
+    margin-bottom: 30px;
+}
