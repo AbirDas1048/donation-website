@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* header section css start */
+
+#header {
+    background-image: url('../images/Rectangle\ 246.png'), url('../images/Rectangle\ 237.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 174px 307px;
+}
+
+#header h1 {
+    padding: 0px 8.5px;
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+}
+
+#header p {
+    padding: 0 100px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+
+#header a {
+    padding: 16px 12px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #FF5959;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+
+/* header section css end */
