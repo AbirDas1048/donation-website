@@ -15,11 +15,15 @@ a {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     text-align: center;
-    padding: 174px 307px;
+    padding: 175px 0;
+}
+
+#header .content {
+    max-width: 826px;
+    margin: 0 auto;
 }
 
 #header h1 {
-    /* padding: 0px 8.5px; */
     color: #ffffff;
     font-size: 65px;
     font-weight: 700;
@@ -28,17 +32,17 @@ a {
 }
 
 #header p {
-    padding: 0 100px;
+    padding: 0 70px;
+    max-width: 691px;
     color: #ffffff;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: 46px;
 }
 
 .donate-button {
     padding: 16px 12px;
-    border: 1px solid transparent;
     border-radius: 5px;
     background-color: #FF5959;
     color: #ffffff;
@@ -52,11 +56,11 @@ a {
 /* donation-amount section css start */
 
 #donation-amount {
-    padding: 130px 338px;
     text-align: center;
 }
 
 #donation-amount h3 {
+    margin-top: 130px;
     color: #121212;
     font-size: 45px;
     font-weight: 700;
@@ -65,7 +69,8 @@ a {
 }
 
 #donation-amount .donation-amount-p {
-    padding: 0 70px;
+    max-width: 691px;
+    margin: 0 auto;
     color: #707070;
     font-size: 18px;
     font-weight: 400;
@@ -75,13 +80,14 @@ a {
 
 #donation-amount .amount {
     display: flex;
-    margin-bottom: 60px;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 #donation-amount .amount .item {
     margin: 0 11px;
-    padding: 44px 25px;
-    border: 1px solid transparent;
+    padding: 43px 24px;
     border-radius: 5px;
     background-color: #fafafa;
     font-size: 30px;
@@ -92,21 +98,195 @@ a {
 
 #donation-amount .amount .item-2 {
 
-    border: 5px solid #FF5959;
+    border: 2px solid #FF5959;
     background-color: #FFEEEE;
     color: #FF5959;
 }
 
-#donation-amount .other {
-    /* padding: 0 70px; */
-    color: #b3b3b3;
+#donation-amount form {
+    max-width: 765px;
+    margin: 0 auto;
+}
+
+#donation-amount form input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #dadada;
+    outline: 0;
+    padding: 10px 0;
+    text-align: center;
     font-size: 18px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 10px;
+    margin-bottom: 46px;
 }
 
-hr {
-    border: 1px solid #dadada;
-    margin-bottom: 30px;
+#donation-amount .input-field::placeholder {
+    color: #b3b3b3;
 }
+
+/* donation-amount section css end */
+
+/* plan section css start */
+
+#plan .first-content {
+    max-width: 691px;
+    margin: 0 auto;
+    margin-top: 130px;
+    text-align: center;
+}
+
+#plan .first-content h3 {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+#plan .first-content p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+}
+
+#plan .items {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+#plan .items .plan-item {
+    padding: 63.5px 23px;
+    margin: 0 12px;
+}
+
+#plan .items .plan-item .plan-item-text {
+    max-width: 315px;
+}
+
+#plan .items .plan-item .plan-item-text h6 {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #121212;
+    margin-bottom: 16px;
+}
+
+#plan .items .plan-item .plan-item-text p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+}
+
+#plan .items .plan-item-1 {
+    background-color: #4F9DA61A;
+    border-radius: 5px;
+}
+
+#plan .items .plan-item-2 {
+    background-color: #FF59591A;
+    border-radius: 5px;
+}
+
+#plan .items .plan-item-3 {
+    background-color: #fff4d6;
+    border-radius: 5px;
+}
+
+/* plan section css end */
+
+/* update section css start */
+
+#update .content {
+    max-width: 691px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#update .content h3 {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+#update .content p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+#update .submit-form {
+    max-width: 809px;
+    margin: 0 auto;
+    background-color: #FFF4D6;
+    padding: 76px 189px;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+#update .submit-form form input {
+    margin: 0;
+    width: 275px;
+    border: 0;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #D9D9D9;
+    outline: 0;
+    padding: 14px 17px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+#update .submit-form form input::placeholder {
+    color: #AA9F9F;
+}
+
+#update .submit-form form a {
+    margin: 0;
+    border-radius: 0px 5px 5px 0px;
+    padding: 14px 43px;
+    background-color: #FF5959;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* update section css end */
+
+/* footer section css start */
+
+footer {
+    padding: 43px 0;
+    background-color: #0B0D17;
+    text-align: center;
+}
+
+footer .content h6 {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+    margin-bottom: 24px;
+}
+
+footer .content p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+    color: #D9DBE1;
+}
+
+/* footer section css end */
