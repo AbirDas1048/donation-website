@@ -201,6 +201,52 @@ a {
 
 /* plan section css end */
 
+/* activity section css start */
+
+#activity {
+    padding: 50px 0;
+    background-color: #e6fff2;
+    margin-bottom: 130px;
+}
+
+#activity .activity-text {
+    text-align: center;
+}
+
+#activity .activity-text h3 {
+    color: #121212;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+}
+
+#activity .activity-text p {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+#activity .activity-item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#activity .activity-item img {
+    width: 25%;
+    border-radius: 5px;
+    margin: 0 11px;
+}
+
+#activity .activity-item img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* activity section css end */
+
 /* update section css start */
 
 #update .content {
